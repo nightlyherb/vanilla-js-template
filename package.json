@@ -1,0 +1,13 @@
+{
+  "name": "vanilla-js",
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "parcel": "latest",
+    "posthtml-include": "^1.7.4"
+  }
+}
