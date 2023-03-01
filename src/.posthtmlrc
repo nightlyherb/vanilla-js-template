@@ -1,7 +1,12 @@
 {
-  "plugins": {
+  plugins: {
     "posthtml-include": {
-      "root": "src"
-    }
-  }
+      root: "src",
+    },
+    "posthtml-modules": {
+      root: "src", // for absolute paths
+      from: "./src/index.html", // for relative paths
+      plugins: [],
+    },
+  },
 }

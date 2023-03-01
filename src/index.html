@@ -15,8 +15,16 @@
 
     <div id="app"></div>
 
-    <include src="./counter/template.html"></include>
+    <module href="./counter/template.html"></module>
 
     <script src="./index.js" type="module"></script>
+
+    <module href="./module-test/a.html">
+      a
+      <module href="./module-test/b.html">
+        b
+        <module href="./module-test/c.html">c</module>
+      </module>
+    </module>
   </body>
 </html>
